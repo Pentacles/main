@@ -1,0 +1,27 @@
+{
+    "ambientocclusion": true,
+    "textures": 
+    {
+        "particle": "blocks/stone",
+        "north": "adventurejewel:blocks/crafting_firelit",
+        "south": "adventurejewel:blocks/crafting_side",
+        "up": "adventurejewel:blocks/crafting_top",
+        "down": "adventurejewel:blocks/crafting_bottom",
+        "east": "adventurejewel:blocks/crafting_front",
+        "west": "adventurejewel:blocks/crafting_side"
+    },
+    "elements":
+    [{
+            "from": [ 0.0, 0.0, 0.0 ], 
+            "to": [ 16.0, 10.0, 16.0 ], 
+        "faces": {
+            "down": {"texture": "#down"},
+            "up": {"texture": "#up"},
+            "east": {"texture": "#east"},
+            "west": {"texture": "#west"},
+            "north": {"texture": "#north"},
+            "south": {"texture": "#south"}
+                }
+            
+    }]
+}
