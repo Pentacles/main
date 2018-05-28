@@ -81,10 +81,10 @@ public static final PropertyBool BURNING = PropertyBool.create("burning");
 	public boolean isFullCube(IBlockState state) {
 		return false;
 	}
-	//@Override
-//    public AxisAlignedBB getBoundingBox(IBlockState state, IBlockAccess source, BlockPos pos) {
-	//	return new AxisAlignedBB(1.0F, 0.0F, 0.0F, 0.0F, 0.625F, 1.0F);
-    //}
+	@Override
+	public AxisAlignedBB getBoundingBox(IBlockState state, IBlockAccess source, BlockPos pos) {
+	return new AxisAlignedBB(1.0F, 0.0F, 0.0F, 0.0F, 0.625F, 1.0F);
+    	}
 	@Override
 	public Item getItemDropped(IBlockState state, Random rand, int fortune)
 	{
